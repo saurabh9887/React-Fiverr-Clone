@@ -1,0 +1,120 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+
+  .container {
+    width: 1250px;
+    flex-direction: column;
+
+    .top {
+      display: flex;
+      justify-content: space-between;
+      gap: 15px;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h2 {
+          font-size: 16px;
+          font-weight: 500;
+          color: #383838;
+        }
+
+        span {
+          color: #74767e;
+          font-size: 17px;
+          font-weight: 400;
+        }
+      }
+    }
+
+    hr {
+      margin: 40px 0;
+      border: 1px solid #ebe9e9;
+    }
+
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+
+      .left {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // width: max-content;
+        gap: 20px;
+
+        h2 {
+          font-size: 30px;
+          font-weight: bolder;
+          color: #74767e;
+        }
+
+        span {
+          font-size: 14px;
+          white-space: nowrap;
+          color: #b9b6b6;
+        }
+      }
+
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        .social {
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          cursor: pointer;
+
+          img {
+            width: 25px;
+            height: 25px;
+            padding: 5px;
+          }
+          img:hover {
+            background-color: #f0f0fa;
+            border-radius: 50%;
+          }
+        }
+
+        .link {
+          display: flex;
+          align-items: center;
+          gap: 5px;
+          padding: 10px 10px;
+          cursor: pointer;
+
+          img {
+            width: 20px;
+            height: 20px;
+          }
+          span {
+            font-size: 12px;
+          }
+        }
+        #Liink:hover {
+          background-color: #f0f0fa;
+          border-radius: 50px;
+        }
+        #accessibility {
+          width: 20px;
+          height: 20px;
+          border: 1px solid gray;
+          border-radius: 50%;
+          background-color: white;
+          padding: 5px;
+          cursor: pointer;
+        }
+        #accessibility:hover {
+          border: 1px solid white;
+          background-color: #f0f0fa;
+        }
+      }
+    }
+  }
+}
